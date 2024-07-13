@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;700&display=swap" rel="stylesheet">
+  <title>تلفونك</title>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">
+      
+      <h4>تلفونك</h4>
+    </div>
+    <div class="bars-menu">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul class="nav-items">
+      <li class="nav-item">
+        <a href="#" class="nav-link">الصفحة الرئيسية</a>
+      </li>
+      <li class="nav-item">
+        <a href="#newest" class="nav-link">أحدث الهواتف</a>
+      </li>
+      <li class="nav-item">
+        <a href="#contact" class="nav-link">تواصل معنا</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-section">
+      <div class="content">
+        <h4>تسوق بأمان. تسوق بسرعة</h4>
+        <h1>
+          اكتشف أحدث الهواتف بأفضل الأسعار
+        </h1>
+        <p>
+          هاتفك هو أكبر متجر لشراء كل ما هو متعلق بالهواتف.
+          
+        </p>
+        <button class="btn"><a href="#newest"> اكتشف الهواتف الجديدة </a></button>
+      </div>
+      <div class="hero-image">
+        <img src="download.jpg" alt="هاتف ذكي" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Newest Phones Section -->
+  <section class="newest-phones" id="newest">
+    <div class="phones-section">
+      <h4>الهواتف المضافة حديثًا</h4>
+      <div class="phones">
+        <div class="phone">
+          <img src="images.jpg" alt="iPhone 13 Pro Max"/>
+          <h3>iPhone 13 Pro Max</h3>
+          <p>السعر: $999</p>
+          <button class="btn order-btn">اطلب الآن</button>
+        </div>
+        <div class="phone">
+          <img src="download (3).jpg" alt="BLU R1 HD"/>
+          <h3>BLU R1 HD</h3>
+          <p>السعر: $149</p>
+          <button class="btn order-btn">اطلب الآن</button>
+        </div>
+        <div class="phone">
+          <img src="download (2).jpg" alt="One Plus 10"/>
+          <h3>One Plus 10</h3>
+          <p>السعر: $699</p>
+          <button class="btn order-btn">اطلب الآن</button>
+        </div>
+        <div class="phone">
+          <img src="images.jpg" alt="Samsung Galaxy A12"/>
+          <h3>Samsung Galaxy A12</h3>
+          <p>السعر: $299</p>
+          <button class="btn order-btn">اطلب الآن</button>
+        </div>
+        <div class="phone">
+          <img src="download (4).jpg" alt="Xiaomi Poco X3"/>
+          <h3>Xiaomi Poco X3</h3>
+          <p>السعر: $199</p>
+          <button class="btn order-btn">اطلب الآن</button>
+        </div>
+        <div class="phone">
+          <img src="download (5).jpg" alt="Xiaomi Redmi Note 9S"/>
+          <h3>Xiaomi Redmi Note 9S</h3>
+          <p>السعر: $249</p>
+          <button class="btn order-btn">اطلب الآن</button>
+        </div>
+      </div>
+      <button class="btn">
+        <a href="#">تصفّح جميع الهواتف</a>
+      </button>
+    </div>
+  </section>
+
+  <!-- Order Form Section -->
+  <section class="order-form" id="contact">
+    <div class="form-section">
+      <h4>طلب هاتف</h4>
+      <form>
+        <label for="name">الاسم الكامل</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">البريد الإلكتروني</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="address">العنوان</label>
+        <input type="text" id="address" name="address" required />
+
+        <label for="phone">رقم الهاتف</label>
+        <input type="tel" id="phone" name="phone" required />
+
+        <label for="phone-model">نوع الهاتف</label>
+        <select id="phone-model" name="phone-model" required>
+          <option value="iPhone 13 Pro Max">iPhone 13 Pro Max</option>
+          <option value="BLU R1 HD">BLU R1 HD</option>
+          <option value="One Plus 10">One Plus 10</option>
+          <option value="Samsung Galaxy A12">Samsung Galaxy A12</option>
+          <option value="Xiaomi Poco X3">Xiaomi Poco X3</option>
+          <option value="Xiaomi Redmi Note 9S">Xiaomi Redmi Note 9S</option>
+        </select>
+
+        <button type="submit" class="btn">إرسال الطلب</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+   
+<footer>
+  <div class="footer-section">
+    <div class="contact-info">
+      <p>الموقع: اربد_شارع ابو راشد</p>
+      <p>رقم الهاتف: 123-456-789</p>
+    </div>
+    <div class="socials">
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+    </div>
+  </div>
+</footer>
+
+  
+  
+    
+   
+    
+    
+   
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
